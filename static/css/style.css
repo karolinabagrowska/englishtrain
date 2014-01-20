@@ -1,0 +1,175 @@
+body{margin:0 auto;text-align:center; background:#fff;color:#000; font-family:Arial, Helvetica, sans-serif;}
+.clear{clear:both;}
+
+
+
+/* wrapper */
+#wrapper-main {width:900px; margin:0 auto;}
+
+
+/* header */
+header.top {height:81px; width:100%; margin:0 auto;text-align:center; background:#f7f7f7; }
+header.top a {color:#333333; text-transform: uppercase; line-height: 81px;}
+header.top > div {height:81px; width:900px; margin:0 auto;position: relative;}
+header.top h1 {float: left;}
+header.top h1 a {display: block; color:#333333; height:81px; width:201px;  background: #ffb100; font-size:18px;}
+
+header.top nav {float: right}
+marg  {}
+header.top nav ul li {float: left; padding-left:24px;}
+header.top nav ul li a {font-size:15px;}
+header.top nav ul li a:hover {color:#ff8400;}
+
+header.top nav ul li.clicked a {background: none repeat scroll 0 0 rgba(0, 0, 0, 0.85); color:#fff;}
+header.top nav ul li.clicked a:hover {color:#fff;}
+
+/* slider */
+div#slider-top {width:900px; margin:0 auto; position: relative;height: 334px;}
+
+div#slider-top a {position: absolute;}
+div#slider-top a.arrow {top: 125px;}
+div#slider-top a.arrow.left {left:-57px;}
+div#slider-top a.arrow.right {right: -57px;}
+
+div#slider-top ul#menu_slides {margin-left: auto;margin-right: auto;display: table;padding-top: 305px;}
+div#slider-top ul#menu_slides li {float: left; width:29px;height: 9px;}
+div#slider-top ul#menu_slides li a {background:url('/static/images/slider_nav.jpg'); height:9px; width: 27px;}
+div#slider-top ul#menu_slides li a:hover, div#slider-top ul#menu_slides li.active a {background:url('/static/images/slider_nav_hover.jpg');}
+
+ul#slides {position: absolute;top: 0;display: block;}
+ul#slides li {display:none;width: 900px;height: 285px;overflow: hidden; position: relative;}
+ul#slides li:first-child {display:none;}
+ul#slides li > div {position: absolute;}
+
+
+ul#slides li .header_1{font-size:22px; text-transform: uppercase;width: 500PX;text-align: LEFT;}
+ul#slides li .paragraph_1{text-align:left;width: 443px;}
+
+
+/* content home page */
+div#wrapper-content {width:900px; margin:0 auto;}
+div#wrapper-content .feature:first-child {border-top:1px solid #c8c8c8;}
+div#wrapper-content .feature {width:900px; height: 252px; position: relative; border-bottom:1px solid #c8c8c8;}
+div#wrapper-content .feature h2 {font-size:22px; color:black;padding: 84px 0 0 20px;}
+div#wrapper-content .feature p {color:#5a5858;width:365px;padding: 10px 0 0 20px;line-height: 19px;}
+div#wrapper-content .left h2, div#wrapper-content .left p {text-align: left;}
+div#wrapper-content .left img {position: absolute; top: 10px; right: 32px;}
+div#wrapper-content .right img {position: absolute; top:0; left: 36px;}
+div#wrapper-content .right h2, div#wrapper-content .right p {text-align: left;margin-left: 362px;}
+
+h3.get-started {width:100%; margin: 37px 0  64px 0; }
+h3.get-started a {font-size:36px; color:black; text-align:center;background:url('/static/images/get_started_arrow.jpg') right no-repeat;padding-right: 45px;}
+
+
+/* footer */
+div#footer {width:100%; height: 66px; background:#f5f5f5;margin:0 auto; text-align: center;position: relative;padding-top: 59px;}
+div#footer div#footer-wrapper {width:900px;  height:82px; margin:0 auto; border-top:1px solid #c8c8c8; padding-top: 22px;}
+div#footer nav  {float: left; }
+div#footer nav ul li {float: left; padding-right:30px; }
+div#footer  a {text-transform:uppercase; font-size:14px; color:#4c4c4c; }
+div#footer  a:hover {color:black; text-decoration: underline; }
+div#footer footer {float: right; }
+
+
+/* register */
+.register {width:500px; display:block; margin:0 auto;}
+.register input, .register label {display:block; text-align: left;}
+.register label {width:100%; color:#4C4C4C;}
+.register input[type=text], .register input[type=password], .register input[type=date], .register textarea, .register select {
+    width: 435px;
+    height: 29px;
+    border: 7px solid #F5F5F5;
+    text-indent: 7px;
+    margin: 8px 0 20px;
+}
+.register select {
+    width: 451px;
+    height: 48px;
+    display: block;
+}
+
+.register textarea {
+    height: 120px;
+    display: block;
+    padding-top:3px;
+}
+.register label span {color:red;}
+.register input[type=submit], .default input[type=submit], .decks input[type=submit] {background:#FF8400; width: 144px; height: 43px; color:black; text-align:center; font-size: 13px; border:0;text-transform: uppercase;font-weight: bold;margin: 13px 4px;cursor: pointer;}
+
+/* content others */
+div#wrapper-content h2 {font-size: 33px; color:black; padding: 30px 0;letter-spacing: 1px; width: 100%; text-align:left;font-weight: normal;}
+div#wrapper-content p {color:#5a5858;padding: 0 0 20px 0;line-height: 19px;text-align: left;}
+
+
+/* reesult */
+
+table#deck-label { text-align:left; width: 318px;}
+table#deck-label td:first-child {width: 165px; }
+table#deck-label td { text-align: left;text-indent: 10px;line-height: 20px;}
+table#deck-label td input {width: 134px; height: 19px;}
+table#deck-label td select {width: 137px; height: 25px;}
+form.decks {text-align:left;}
+form.decks table {width:100%;position: relative;left: 0;right: 0; text-align:center;}
+form.decks table thead tr {border-bottom:1px solid #fcfcfc; background:#eeeeee; color:#000000; font-weight:bold;}
+form.decks table tr td {height: 36px;vertical-align: middle;text-align: center;border-right: 1px solid #fcfcfc;}
+form.decks table tr td:first-child {border-left: 1px solid #fcfcfc;}
+
+form.decks table tbody tr {border-bottom:1px solid #fcfcfc;  color:#000000; font-weight:normal; font-size:12px;}
+form.decks table tbody tr:nth-child(odd) {background:#fcfcfc;}
+form.decks table tbody tr:nth-child(even) {background:#F5F5F5;}
+form.decks table tbody tr:hover {background:#fff3d9;}
+
+form.decks table input[type=text] {width: 286px; height: 25px; font-size:11px;}
+form.decks table tbody tr.taught {opacity:0.4;}
+
+
+/* account menu */
+#account_menu {display: none; position: absolute; top: 49px; right:0; background: none repeat scroll 0 0 rgba(0, 0, 0, 0.85);z-index: 20;color:white;}
+#account_menu ul{
+    padding: 0;
+    margin: 0;
+}
+#account_menu ul li{float: none;text-align: left;margin: 0;padding: 0;}
+#account_menu ul li a{color: #DDD;font-size: 11px;line-height: 25px;text-transform: none;padding: 0px 10px;font-weight: bold; display: block;}
+#account_menu ul li a:hover{color: #fffff2; background:#393939;}
+#account_menu h3 {text-align:left; padding: 9px 0 7px 7px;}
+#account_menu h3 a {font-size: 13px; font-weight:bold;color: #E9E6E6; line-height: 10px;}
+
+
+
+form.default { display:block; margin:0 auto;text-align: left;}
+form.default p {padding:0;}
+form.default textarea {padding:0;}
+
+
+
+/* decks */
+table.decks-table {width:100%;position: relative;left: 0;right: 0; text-align:center; margin-bottom:100px;}
+table.decks-table thead tr {border-bottom:1px solid #fcfcfc; background:#eeeeee; color:#000000; font-weight:bold;}
+table.decks-table tr td {height: 36px;vertical-align: middle;text-align: center;border-right: 1px solid #fcfcfc;}
+table.decks-table tr td:first-child {border-left: 1px solid #fcfcfc;}
+
+table.decks-table tbody tr {border-bottom:1px solid #fcfcfc;  color:#000000; font-weight:normal; font-size:12px;}
+table.decks-table tbody tr:nth-child(odd) {background:#fcfcfc;}
+table.decks-table tbody tr:nth-child(even) {background:#F5F5F5;}
+table.decks-table tbody tr:hover {background:#fff3d9;}
+
+table.decks-table input[type=text] {width: 286px; height: 25px; font-size:11px;}
+table.decks-table tbody tr.taught {opacity:0.4;}
+
+
+/*taught */
+div#taught-words {width:100%;}
+div#taught-words > a {display:block; width:100px;  line-height: 28px; background: #FFFEFC; border: 1px solid #EBEBEB; float: left;margin: 2px;font-size: 12px;color: rgb(43, 43, 43);}
+div#taught-words > a:hover {background:#f0eae2; border:1px solid #d6c9b4;}
+
+
+/* profile */
+.profile {width:auto;}
+h4 {font-size: 20px; color:black; padding: 22px 0;letter-spacing: 1px; width: 100%; text-align:left;font-weight: normal;}
+table.profile {font-size: 15px; text-align:left;margin: 0 0 20px;}
+
+table.profile td:first-child {width: 195px; font-weight:bold;padding: 5px;}
+
+table.contact td:first-child {width: 63px;}
+

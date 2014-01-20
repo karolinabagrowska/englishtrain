@@ -1,0 +1,14 @@
+#top-line {
+    border-bottom: 1px solid #C7C7C7;
+    height: 110px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: 9000;
+    top:0;
+    clear: both;
+    
+    width: 100%;
+   
+}
+
