@@ -1,0 +1,589 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-20 14:22+0000\n"
+"PO-Revision-Date: 2012-12-20 14:24\n"
+"Last-Translator: Mariusz Baszczak <mariusz.blaszczak@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Translated-Using: django-rosetta 0.6.8\n"
+
+#: .\settings.py:165 .\subs\models.py:5
+msgid "Spanish"
+msgstr "Español"
+
+#: .\settings.py:166 .\subs\models.py:5
+msgid "German"
+msgstr "Alemán"
+
+#: .\settings.py:167 .\subs\models.py:5
+msgid "English"
+msgstr "Inglese"
+
+#: .\views.py:12 .\templates\menu_top.html.py:39
+msgid "Home page"
+msgstr "Portada del sitio"
+
+#: .\accounts\forms.py:16
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: .\accounts\forms.py:17
+msgid "This value must contain only letters, numbers and underscores."
+msgstr "Este valor debe contener sólo letras, números y guiones bajos."
+
+#: .\accounts\forms.py:20
+msgid "Email address"
+msgstr "Correo electrónico"
+
+#: .\accounts\forms.py:23
+msgid "Password"
+msgstr "Contraseña"
+
+#: .\accounts\forms.py:26
+msgid "Password (again)"
+msgstr "Contraseña (otra vez)"
+
+#: .\accounts\forms.py:29
+msgid "I have read and agree to the Terms of Service"
+msgstr "He leído y estoy de acuerdo con los Términos de Servicio"
+
+#: .\accounts\forms.py:30
+msgid "You must agree to the terms to register"
+msgstr "Debes aceptar los términos para registrarse"
+
+#: .\accounts\forms.py:42
+msgid "A user with that username already exists."
+msgstr "Un usuario con ese nombre de usuario ya existe."
+
+#: .\accounts\forms.py:54
+msgid "The two password fields didn't match."
+msgstr "Los dos campos de contraseña no coinciden."
+
+#: .\accounts\views.py:69 .\templates\menu_top.html.py:32
+msgid "Edit your profile"
+msgstr "Modifique su perfil"
+
+#: .\accounts\views.py:102
+msgid "Profile of"
+msgstr "Perfil de"
+
+#: .\rosetta\templates\rosetta\languages.html.py:4
+#: .\rosetta\templates\rosetta\languages.html.py:7
+msgid "Language selection"
+msgstr ""
+
+#: .\rosetta\templates\rosetta\languages.html.py:7
+#: .\rosetta\templates\rosetta\pofile.html.py:21
+#: .\templates\admin\flatpages\flatpage\change_form.html.py:22
+msgid "Home"
+msgstr ""
+
+#: .\rosetta\templates\rosetta\languages.html.py:8
+msgid ""
+"Couldn't load the specified language file. This usually happens when using "
+"the Encrypted Cookies Session Storage backend on Django 1.4 or "
+"higher.<br/>Setting ROSETTA_STORAGE_CLASS = "
+"'rosetta.storage.CacheRosettaStorage' in your settings file should fix this."
+msgstr ""
+
+#: .\rosetta\templates\rosetta\languages.html.py:14
+msgid "Filter"
+msgstr ""
+
+#: .\rosetta\templates\rosetta\languages.html.py:15
+msgid "Project"
+msgstr ""
+
+#: .\rosetta\templates\rosetta\languages.html.py:16
+msgid "Third party"
+msgstr ""
+
+#: .\rosetta\templates\rosetta\languages.html.py:18
+#: .\rosetta\templates\rosetta\pofile.html.py:38
+msgid "All"
+msgstr ""
+
+#: .\rosetta\templates\rosetta\languages.html.py:31
+msgid "Application"
+msgstr ""
+
+#: .\rosetta\templates\rosetta\languages.html.py:32
+msgid "Progress"
+msgstr ""
+
+#: .\rosetta\templates\rosetta\languages.html.py:33
+msgid "Messages"
+msgstr ""
+
+#: .\rosetta\templates\rosetta\languages.html.py:34
+msgid "Translated"
+msgstr ""
+
+#: .\rosetta\templates\rosetta\languages.html.py:35
+#: .\rosetta\templates\rosetta\pofile.html.py:70
+msgid "Fuzzy"
+msgstr ""
+
+#: .\rosetta\templates\rosetta\languages.html.py:36
+msgid "Obsolete"
+msgstr ""
+
+#: .\rosetta\templates\rosetta\languages.html.py:37
+msgid "File"
+msgstr ""
+
+#: .\rosetta\templates\rosetta\languages.html.py:60
+msgid "Nothing to translate!"
+msgstr ""
+
+#: .\rosetta\templates\rosetta\languages.html.py:61
+msgid ""
+"You haven't specified any languages in your settings file, or haven't yet "
+"generated a batch of translation catalogs."
+msgstr ""
+
+#: .\rosetta\templates\rosetta\languages.html.py:62
+#, python-format
+msgid ""
+"Please refer to <a href=\"%(i18n_doc_link)s\">Django's I18N "
+"documentation</a> for a guide on how to set up internationalization for your"
+" project."
+msgstr ""
+
+#: .\rosetta\templates\rosetta\pofile.html.py:8
+msgid "Pick another file"
+msgstr ""
+
+#: .\rosetta\templates\rosetta\pofile.html.py:9
+msgid "Download this catalog"
+msgstr ""
+
+#: .\rosetta\templates\rosetta\pofile.html.py:24
+#, python-format
+msgid "Progress: %(percent_translated)s%%"
+msgstr ""
+
+#: .\rosetta\templates\rosetta\pofile.html.py:26
+msgid "File is read-only: download the file when done editing!"
+msgstr ""
+
+#: .\rosetta\templates\rosetta\pofile.html.py:27
+msgid ""
+"Some items in your last translation block couldn't be saved: this usually "
+"happens when the catalog file changes on disk after you last loaded it."
+msgstr ""
+
+#: .\rosetta\templates\rosetta\pofile.html.py:31
+#, python-format
+msgid "Translate into %(rosetta_i18n_lang_name)s"
+msgstr ""
+
+#: .\rosetta\templates\rosetta\pofile.html.py:34
+msgid "Display:"
+msgstr ""
+
+#: .\rosetta\templates\rosetta\pofile.html.py:35
+msgid "Untranslated only"
+msgstr ""
+
+#: .\rosetta\templates\rosetta\pofile.html.py:36
+msgid "Translated only"
+msgstr ""
+
+#: .\rosetta\templates\rosetta\pofile.html.py:37
+msgid "Fuzzy only"
+msgstr ""
+
+#: .\rosetta\templates\rosetta\pofile.html.py:45
+msgid "Search"
+msgstr ""
+
+#: .\rosetta\templates\rosetta\pofile.html.py:47
+msgid "Go"
+msgstr ""
+
+#: .\rosetta\templates\rosetta\pofile.html.py:67
+msgid "Original"
+msgstr ""
+
+#: .\rosetta\templates\rosetta\pofile.html.py:71
+msgid "Occurrences(s)"
+msgstr ""
+
+#: .\rosetta\templates\rosetta\pofile.html.py:85
+#: .\rosetta\templates\rosetta\pofile.html.py:88
+#: .\rosetta\templates\rosetta\pofile.html.py:103
+#: .\rosetta\templates\rosetta\pofile.html.py:106
+msgid "Context hint"
+msgstr ""
+
+#: .\rosetta\templates\rosetta\pofile.html.py:113
+msgid "suggest"
+msgstr ""
+
+#: .\rosetta\templates\rosetta\pofile.html.py:124
+#, python-format
+msgid "%(more_count)s more"
+msgid_plural "%(more_count)s more"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\rosetta\templates\rosetta\pofile.html.py:136
+msgid "Save and translate next block"
+msgstr ""
+
+#: .\rosetta\templates\rosetta\pofile.html.py:140
+msgid "Skip to page:"
+msgstr ""
+
+#: .\rosetta\templates\rosetta\pofile.html.py:153
+msgid "Displaying:"
+msgstr ""
+
+#: .\rosetta\templates\rosetta\pofile.html.py:157
+#, python-format
+msgid "%(hits)s/%(message_number)s message"
+msgid_plural "%(hits)s/%(message_number)s messages"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\subs\models.py:5
+msgid "Polish"
+msgstr "Polacco"
+
+#: .\subs\views.py:24 .\templates\menu_top.html.py:28
+msgid "Add new deck"
+msgstr "Añadir nueva cubierta"
+
+#: .\subs\views.py:37
+msgid "Add taught"
+msgstr "Añadir enseñado"
+
+#: .\subs\views.py:46
+msgid "Your decks"
+msgstr "Sus cubiertas"
+
+#: .\subs\views.py:55
+msgid "Your taught words"
+msgstr "Sus palabras enseñadas"
+
+#: .\subs\views.py:63
+msgid "Deck: "
+msgstr "Cubierto:"
+
+#: .\templates\contact.html.py:4 .\templates\contact.html.py:14
+#: .\templates\menu_top.html.py:44
+msgid "Contact"
+msgstr "Contacto"
+
+#: .\templates\contact.html.py:15
+msgid "You can contact us here:"
+msgstr "Puede contactar con nosotros en:"
+
+#: .\templates\index.html.py:3
+msgid "Strona główna"
+msgstr "Portada del sitio"
+
+#: .\templates\index.html.py:30
+msgid "Get Started Today!"
+msgstr "Comience hoy mismo!"
+
+#: .\templates\menu_top.html.py:29
+msgid "Manage your decks"
+msgstr "Administre sus cubiertas"
+
+#: .\templates\menu_top.html.py:30
+msgid "Add taught words"
+msgstr "Añada palabras enseñadas"
+
+#: .\templates\menu_top.html.py:31
+msgid "Manage taught words"
+msgstr "Administrar palabras enseñadas"
+
+#: .\templates\menu_top.html.py:33
+msgid "Logout"
+msgstr "Cerrar sesión"
+
+#: .\templates\menu_top.html.py:48
+msgid "My account"
+msgstr "Mi cuenta"
+
+#: .\templates\accounts\activation_complete.html.py:4
+#: .\templates\accounts\activation_complete.html.py:8
+msgid "Aktywacja zakończona sukcesem"
+msgstr "Activación correcta"
+
+#: .\templates\accounts\activation_complete.html.py:10
+msgid "Aktywacja zakończona sukcesem. Możesz teraz się zalogować"
+msgstr "Activación con éxito. Ahora puede iniciar sesión"
+
+#: .\templates\accounts\activation_email.txt.py:2
+msgid "Aby aktywować konto, kliknij w poniższy link"
+msgstr "Para activar su cuenta, haga clic en el siguiente enlace"
+
+#: .\templates\accounts\activation_email_subject.txt.py:2
+msgid "Aktywuj swoje konto"
+msgstr "Active su cuenta"
+
+#: .\templates\accounts\activation_success.html.py:4
+msgid "Błędy kod aktywacyjny"
+msgstr "Errores de código de activación"
+
+#: .\templates\accounts\activation_success.html.py:8
+#: .\templates\accounts\activation_success.html.py:10
+msgid "Błędny kod aktywacyjny"
+msgstr "Errores de código de activación"
+
+#: .\templates\accounts\edit_profile_form.html.py:15
+#: .\templates\accounts\registration_form.html.py:15
+msgid "Pojawiły się następujące błędy"
+msgstr "Ocurrido los siguientes errores"
+
+#: .\templates\accounts\edit_profile_form.html.py:60
+#: .\templates\subs\result.html.py:190
+msgid "Save"
+msgstr "Ahorrar"
+
+#: .\templates\accounts\profile.html.py:9
+msgid "Personal data"
+msgstr "Datos personales"
+
+#: .\templates\accounts\profile.html.py:12
+msgid "First name"
+msgstr "Primero numbre"
+
+#: .\templates\accounts\profile.html.py:16
+msgid "Last name"
+msgstr "Segundo nombre"
+
+#: .\templates\accounts\profile.html.py:20
+msgid "Birthday"
+msgstr "Cumpleaños"
+
+#: .\templates\accounts\profile.html.py:24
+msgid "City"
+msgstr "Ciudad"
+
+#: .\templates\accounts\profile.html.py:28
+msgid "About me"
+msgstr "Acerca de mí"
+
+#: .\templates\accounts\profile.html.py:33
+msgid "Progress of learning"
+msgstr "El progreso del aprendizaje"
+
+#: .\templates\accounts\profile.html.py:36
+msgid "Number of decks"
+msgstr "Número de cubiertas"
+
+#: .\templates\accounts\profile.html.py:40
+msgid "Number of learned words"
+msgstr "Número de palabras aprendidas"
+
+#: .\templates\accounts\registration_complete.html.py:4
+#: .\templates\accounts\registration_complete.html.py:8
+msgid "Dziękujemy za rejestracje"
+msgstr "Gracias por registrarse"
+
+#: .\templates\accounts\registration_complete.html.py:10
+msgid ""
+"Dziękujemy za rejestracje. Na wskazany adres został wysłany e-mail z linkiem"
+" aktywacyjnym. "
+msgstr ""
+"Gracias por registrarse. En la dirección se ha enviado un correo electrónico"
+" con un enlace de activación."
+
+#: .\templates\accounts\registration_form.html.py:4
+#: .\templates\accounts\registration_form.html.py:12
+msgid "Rejestracja nowego użytkownika"
+msgstr "Registrar un nuevo usuario"
+
+#: .\templates\accounts\registration_form.html.py:42
+msgid "Send"
+msgstr "Enviar"
+
+#: .\templates\admin\base.html.py:47
+msgid "Welcome,"
+msgstr "Bienvenido,"
+
+#: .\templates\admin\base.html.py:52
+msgid "Documentation"
+msgstr "Documentación"
+
+#: .\templates\admin\base.html.py:60
+msgid "Change password"
+msgstr ""
+
+#: .\templates\admin\base.html.py:67
+msgid "Log out"
+msgstr ""
+
+#: .\templates\admin\base_site.html.py:4
+msgid "Django site admin"
+msgstr ""
+
+#: .\templates\admin\index.html.py:39
+msgid "You don't have permission to edit anything."
+msgstr ""
+
+#: .\templates\admin\contact\inline.html.py:16
+msgid "Delete?"
+msgstr ""
+
+#: .\templates\admin\contact\inline.html.py:29
+#: .\templates\admin\flatpages\flatpage\change_form.html.py:35
+msgid "View on site"
+msgstr ""
+
+#: .\templates\admin\contact\inline.html.py:134
+#, python-format
+msgid "Add another %(verbose_name)s"
+msgstr ""
+
+#: .\templates\admin\contact\inline.html.py:137
+#: .\templates\subs\waists.html.py:47
+msgid "Remove"
+msgstr ""
+
+#: .\templates\admin\flatpages\flatpage\change_form.html.py:25
+msgid "Add"
+msgstr ""
+
+#: .\templates\admin\flatpages\flatpage\change_form.html.py:34
+msgid "History"
+msgstr ""
+
+#: .\templates\admin\flatpages\flatpage\change_form.html.py:46
+msgid "Please correct the error below."
+msgid_plural "Please correct the errors below."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\templates\registration\login.html.py:3
+#: .\templates\registration\login.html.py:8
+#: .\templates\registration\login.html.py:23
+msgid "Login"
+msgstr "Login"
+
+#: .\templates\slider\slider.html.py:56
+msgid ""
+"It is under new management! Getty Images is proud to now wholly-own the "
+"world's best free stock site. SXC has a long history and a great community, "
+"and we're excited to grow with this unique site."
+msgstr ""
+"Está bajo nueva gerencia! Getty Images se enorgullece ahora totalmente "
+"propio del mundo mejor sitio de stock libre. SXC tiene una larga historia y "
+"una gran comunidad, y estamos muy contentos de crecer con este lugar único."
+
+#: .\templates\slider\slider.html.py:62
+msgid "learning was never so simple"
+msgstr "aprendizaje nunca fue tan sencillo"
+
+#: .\templates\slider\slider.html.py:79
+msgid ""
+"It costs nothing. You just need to create your personal account and start "
+"using that website."
+msgstr ""
+"No cuesta nada. Sólo tiene que crear su cuenta personal y comenzar a usar "
+"ese sitio web."
+
+#: .\templates\slider\slider.html.py:85
+msgid "just try it."
+msgstr "a modo de prueba."
+
+#: .\templates\slider\slider.html.py:106
+msgid ""
+"SXC has a long history and a great community, and we're excited to grow with"
+" this unique site. It is under new management! Getty Images is proud to now "
+"wholly-own the world's best free stock site. "
+msgstr ""
+"SXC tiene una larga historia y una gran comunidad, y estamos muy contentos "
+"de crecer con este lugar único. Está bajo nueva gerencia! Getty Images se "
+"enorgullece ahora totalmente propio del mundo mejor sitio de stock libre."
+
+#: .\templates\slider\slider.html.py:112
+msgid "get profit"
+msgstr "obtener ganancias"
+
+#: .\templates\subs\add_taught.html.py:11
+msgid "Paste a text you want to add to your taught words."
+msgstr "Pegar un texto que desea agregar a sus palabras enseñadas."
+
+#: .\templates\subs\index.html.py:15
+msgid "Paste a text you want to convert to our format."
+msgstr "Pegue el texto que desea convertir a nuestro formato."
+
+#: .\templates\subs\result.html.py:106
+msgid "Error in the form"
+msgstr "Error en el formulario"
+
+#: .\templates\subs\result.html.py:114
+msgid "Nazwa talii"
+msgstr "Nombre cintura"
+
+#: .\templates\subs\result.html.py:118
+msgid "Lang code source"
+msgstr "Lang código fuente"
+
+#: .\templates\subs\result.html.py:122
+msgid "Lang code translation"
+msgstr "Lang código de traducción"
+
+#: .\templates\subs\result.html.py:148
+msgid "Fraza"
+msgstr "Frase"
+
+#: .\templates\subs\result.html.py:149
+msgid "Tłumaczenie"
+msgstr "Traducción"
+
+#: .\templates\subs\result.html.py:150
+msgid "Umiem"
+msgstr "Que pueda"
+
+#: .\templates\subs\result.html.py:151
+msgid "Nowe słówka"
+msgstr "Las nuevas palabras"
+
+#: .\templates\subs\taughts.html.py:9
+msgid ""
+"This is the list of words that you already have learned. Click on the word "
+"that you don't know, to remove from this list."
+msgstr ""
+"Esta es la lista de palabras que ya han aprendido. Haga clic en la palabra "
+"que no conoce, para eliminar de esta lista."
+
+#: .\templates\subs\taughts.html.py:44 .\templates\subs\waists.html.py:56
+msgid "There is no items to display."
+msgstr "No hay elementos para mostrar."
+
+#: .\templates\subs\waists.html.py:26
+msgid "Name"
+msgstr "Nombre"
+
+#: .\templates\subs\waists.html.py:27
+msgid "Taught"
+msgstr "Enseñado"
+
+#: .\templates\subs\waists.html.py:28
+msgid "Actions"
+msgstr "Acciones"
+
+#: .\templates\subs\waists.html.py:39
+msgid "Taught!"
+msgstr "Enseñado!"
+
+#: .\templates\subs\waists.html.py:41
+msgid "Add to taught"
+msgstr "Añadir a enseñado"
